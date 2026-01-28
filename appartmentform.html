@@ -3,37 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>custom appartment</title>
 </head>
 <body>
     <h1>ARE YOU LOOKING FOR A HIGH QUALITY AND AFFORDABLE ROOM TO STAY IN!!!</h1>
     <h3>sign up here (do it quick were running out of rooms)</h3>
     <form>
-        <input type="text" name="Name" placeholder="first name">
-        <input type="text" name="Name" placeholder="last name">
+         <label for="firstName">Full Name:</label>
+    <input type="text" id="firstName" name="firstName" placeholder="Bob freddies">
        <br>
+       <label for="email">Email:</label>
        <input type="email" name="email" placeholder="example@whatever.this">
        <br>
        <p>we have a few questions we would like to ask befor we get you your ideal room.</p>
-       <p>all of our beds come with complimentary bedbugs but you can choose what texture you would prefer</p>
+        <label for="bed texture">all of our beds come with complimentary bedbugs but you can choose what texture you would prefer</label>
+        <br>
        <input type="checkbox" name="bed texture" value="musty">Musty
        <br>
        <input type="checkbox" name="bed texture" value="crusty">Crusty
        <br>
        <input type="checkbox" name="bed texture" value="Greasy">Greasy
-       <p>and as an extra bit of flavour we can add some doodoo stains to the bed for you</p>
+       <br>
+       <label for="extra flavour">and as an extra bit of flavour we can add some doodoo stains to the bed for you</label>
+       <br>
        <input type="radio" name="extra flavour" value="doodoo stains"> YES PLEASE!! 
        <input type="radio" name="extra flavour" value="no doodoo stains"> no thanks
        <Br>
-        <p> for the bathrooms none of the toilets actually work so we will have an employee come in every week to clean them out buuuut would you prefer the shower is always way to hot or way to cold</p>
+        <label for="shower temp"> for the bathrooms none of the toilets actually work so we will have an employee come in every week to clean them out buuuut would you prefer the shower is always way to hot or way to cold</label>
+        <br>
         <input type="radio" name="shower temp" value="to hot"> to hot
        <input type="radio" name="shower temp" value="to cold">to cold
        <Br>
+         <label for="rat room service">our rooms come with free room service from our rat employee, please chose which division you want to assist you</label>
+        <br>
+        <input type="radio" name="rat room service" value="African Crested Rats"> African Crested Rats (slightly poisonous)
+        <br>
+        <img src="AfricanCrestedRat.jpg" width="300">
+        <br>
+       <input type="radio" name="rat room service" value="cotton rats"> Cotton rats (very gentle)
+       <br>
+       <img src="cottonrat.jpg" width="250">
+       <br>
+       <input type="radio" name="rat room service" value="flying rats"> flying Rats (not a bat)
+       <br>
+       <img src="flyingrat.jpg" width="250">
+       <br>
+       <p>thank you for you time, we hope you will enjoy your room</p>
         <Br>
         <input type="submit">
 
 
     </form>
+   
 
 </body>
 </html>
